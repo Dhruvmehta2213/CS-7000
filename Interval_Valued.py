@@ -81,7 +81,7 @@ for x in dataset:
 #print(Segment)
 
 for x in Segment:
-    final_pdf.append(x*(1/(len(dataset)*10)))
+    final_pdf.append(x*(1/(len(dataset))))
 
 print(final_pdf)
 
